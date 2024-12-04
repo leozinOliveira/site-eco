@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+.Sobre {
+    position: relative;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;   
+}
+
+.Fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.Conteudo {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Conteudo h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.Conteudo p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.servicos {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.servicos h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.servicos p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.servico {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.servico h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+.botao {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.botao h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.botao p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.botao button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: #00695c;
+}
+
+.Cabecalho {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.Cabecalho h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Cabecalho p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.Produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.Produto {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Produto img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.Produto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.Produto p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.Produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contato {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contato-info {
+    margin-bottom: 40px;
+}
+
+.contato-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contato-info p {
+    color: #666;
+    font-size: 1.2rem;
+}
