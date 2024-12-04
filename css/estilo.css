@@ -38,7 +38,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/imagens/fundo.jpg');
+    background-image: url('/site-eco/imagens/fundo.jpg');
     background-size: cover;
     background-position: center;
     color: white;   
